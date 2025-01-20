@@ -1,0 +1,5 @@
+first_subject=int(input("Enter the marks of first subject: "))
+second_subject=int(input("Enter the marks of second subject: "))
+third_subject=int(input("Enter the marks of third subject: "))
+print(f"Average of subjcts is {(first_subject+second_subject+third_subject)/3}")
+print(f"Total is {first_subject+second_subject+third_subject}")
