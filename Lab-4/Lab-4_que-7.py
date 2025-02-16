@@ -9,4 +9,5 @@ def combinations(n, r):
 def permutations(n, r):
     return factorial(n)/factorial(n-r)
 
-print(combinations(6,5))
+print(f"nCr is: {combinations(6,5)}")
+print(f"nPr is: {permutations(6,5)}")
