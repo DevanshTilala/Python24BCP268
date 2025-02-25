@@ -14,10 +14,8 @@ def count_less_30(n):
     return count
 
 def delete_more_35(n):
-    for i in n.copy():
-        if i>35:
-            n.remove(i)
-    return n
+    n=[i for i in n if i<35]
+    return set(n)
 
 n=num_in_range()
 print(f"Set of numbers between 15 and 45 is: {n}")
