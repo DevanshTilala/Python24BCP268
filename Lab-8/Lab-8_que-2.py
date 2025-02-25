@@ -4,8 +4,6 @@ def num_in_range():
     num=set()
     while(len(num)!=10):
         num.add(random.randint(15,45))
-        if(len(num)==10):
-            break
     return num
 
 def count_less_30(n):
