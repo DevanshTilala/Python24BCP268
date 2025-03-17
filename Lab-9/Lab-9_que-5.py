@@ -6,5 +6,8 @@ def ispangram(str1):
         return True
     else:
         return False
-string1="A quick brown fox jumps over the lazy dog"
-print(ispangram(string1))
+string1="Crazy Fredrick bought many very exquisite opal jewels"
+if(ispangram(string1)):
+    print(f"{string1} is pangram")
+else:
+    print(f"{string1} is not pangram")
